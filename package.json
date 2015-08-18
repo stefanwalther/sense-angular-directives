@@ -1,8 +1,8 @@
 {
   "name": "sense-angular-directives",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "AngularJS directives ready to be used in Qlik Sense.",
-  "main": "-",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/stefanwalther/sense-angular-directives",
   "devDependencies": {
+    "gulp": "git://github.com/gulpjs/gulp#4.0",
     "sense-go": "^0.5.9",
     "verb": "git://github.com/verbose/verb"
   }

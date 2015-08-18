@@ -9,6 +9,14 @@ Since AngularJS modules cannot be used directly in Qlik Sense visualization exte
 More information about how to use AngularJS in Qlik Sense visualization extensions can be found here:
 [https://github.com/stefanwalther/qliksense-extension-tutorial](https://github.com/stefanwalther/qliksense-extension-tutorial)
 
+## Directives
+
+(TBC)
+
+## Usage
+
+(TBC)
+
 ## Contributing
 
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/stefanwalther/sense-angular-directives/issues).
