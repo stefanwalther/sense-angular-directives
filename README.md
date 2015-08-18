@@ -15,7 +15,15 @@ More information about how to use AngularJS in Qlik Sense visualization extensio
 
 ## Usage
 
-(TBC)
+Install on your system:
+
+`npm install sense-angular-directives`
+
+Then include the wanted directives into your project, e.g. by
+
+* manually copying them
+* using [sense-go](https://github.com/stefanwalther/sense-go.git) and the `import` task
+* etc.
 
 ## Contributing
 
