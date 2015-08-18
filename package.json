@@ -3,7 +3,7 @@
   "version": "0.1.3",
   "description": "AngularJS directives ready to be used in Qlik Sense.",
   "files": [
-    "./dist/"
+    "dist"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
