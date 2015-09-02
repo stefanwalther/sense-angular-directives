@@ -9,6 +9,7 @@ senseGo.init( gulp, userConfig,  function (  ) {
 	gulp.task( 'build', gulp.series(
 		'clean:tmp',
 		'copy:toTmp',
+		'import',
 		'less:each',
 		'replace:tmp',
 		'jsonlint:tmp',
