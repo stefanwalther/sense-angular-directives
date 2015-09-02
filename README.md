@@ -1,4 +1,4 @@
-# sense-angular-directives
+# AngularJS Directives for Qlik Sense (sense-angular-directives)
 
 > AngularJS directives ready to be used in Qlik Sense.
 
@@ -62,7 +62,7 @@ Properties:
 
 Install on your system:
 
-`npm install sense-angular-directives --save`
+`npm install sense-angular-directives --save-dev`
 
 Then include the wanted directives into your project, e.g. by
 

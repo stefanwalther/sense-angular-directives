@@ -1,7 +1,7 @@
 {
   "name": "sense-angular-directives",
   "version": "0.1.5",
-  "description": "AngularJS directives ready to be used in Qlik Sense.",
+  "description": "AngularJS directives ready to be used in Qlik Sense visualization extensions.",
   "files": [
     "dist"
   ],
