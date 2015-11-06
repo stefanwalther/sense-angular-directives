@@ -1,7 +1,8 @@
 /*global define*/
 define( [
-	'qvangular'
-], function ( qvangular ) {
+	'qvangular',
+	'text!./eui-state-msg.ng.html'
+], function ( qvangular, ngTemplate ) {
 	'use strict';
 
 	var component = {
@@ -9,16 +10,17 @@ define( [
 		replace: false,
 		template: ngTemplate,
 		scope: {
-			message: '@'
+			message: '@',
+			state: '@'
 		},
 		controller: ['$scope', function ( $scope ) {
 		}],
 		link: function ( scope, elem, attrs ) {
-			console.log(scope);
+			console.log( scope );
 		}
 	};
 
-	qvangular.directive( "euiEditMsg", function () {
+	qvangular.directive( "euiStateMsg", function () {
 		return component;
 	} );
 
