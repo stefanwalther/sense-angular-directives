@@ -1,0 +1,30 @@
+{
+	"name": "sense-angular-directives",
+	"version": "0.1.0",
+	"homepage": "https://github.com/stefanwalther/sense-angular-directives",
+	"authors": [
+		"Stefan Walther"
+	],
+	"description": "AngularJS directives ready to be used in Qlik Sense.",
+	"keywords": [
+		"AngularJS",
+		"qlik",
+		"qlik-sense",
+		"directives",
+		"visualization-extensions",
+		"extensions"
+	],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"moduleType": "amd",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/stefanwalther/angular-sense-directives.git"
+	}
+}

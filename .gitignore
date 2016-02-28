@@ -7,6 +7,7 @@ web.*.config
 /**/node_modules/
 /**/bower_components/
 /build/*_dev.zip
+/**/.tmp/
 
 
 # =========================

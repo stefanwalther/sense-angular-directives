@@ -1,0 +1,2 @@
+packageName: 'sense-angular-directives'
+buildReleaseDir: './dist'
