@@ -1,0 +1,32 @@
+{
+  "name": "sense-directives",
+  "version": "0.1.0",
+  "description": "A collection of AngularJS directives which can be easily re-used in AngularJS based visualization extensions.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "verb": "^0.8.7"
+  },
+  "devDependencies": {
+    "sense-go": "^0.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stefanwalther/sense-directives"
+  },
+  "keywords": [
+    "qlik",
+    "qlik-sense"
+  ],
+  "author": "Stefan Walther",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanwalther/sense-directives/issues"
+  },
+  "homepage": "https://github.com/stefanwalther/sense-directives"
+}
