@@ -1,0 +1,19 @@
+<div class="eui-simple-table">
+	<table border="0">
+		<thead>
+		<tr>
+			<th ng-repeat="dim in hyperCube.qDimensionInfo">{{dim.qFallbackTitle}}
+			</td>
+			<th ng-repeat="mea in hyperCube.qMeasureInfo" ng-bind="mea.qFallbackTitle">
+			</td>
+		</tr>
+		</thead>
+		<tbody>
+		<tr ng-repeat="row in hyperCube.qDataPages[0].qMatrix">
+			<td ng-repeat="col in row">
+				{{col.qText}}
+			</td>
+		</tr>
+		</tbody>
+	</table>
+</div>
