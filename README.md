@@ -1,4 +1,6 @@
 # sense-angular-directives
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/stefanwalther/sense-angular-directives.svg)](https://greenkeeper.io/)
 > AngularJS directives ready to be used in Qlik Sense visualization extensions.
 
 ## About
