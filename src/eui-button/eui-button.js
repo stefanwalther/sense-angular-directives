@@ -1,9 +1,9 @@
 /* global define */
 define([
   'qvangular',
-  './eui-button.ng.html'
-], function (qvangular,
-             ngTemplate) {
+  'angular',
+  'text!./eui-button.ng.html'
+], function (qvangular, angular, ngTemplate) {
   'use strict';
 
   var component = {
@@ -11,11 +11,20 @@ define([
     replace: true,
     template: ngTemplate,
     scope: {
-      close: '&',
-      closable: '=',
-      visible: '='
+      label: '=',
+      theme: '=',
+      icon: '=',
+      fullWidth: '=',
+      align: '=',
+      click: '&'
     },
-    controller: ['$scope', '$attrs', function (/* scope, attrs */) {
+    controller: ['$scope', '$attrs', function ($scope /* , $attrs */) {
+
+      $scope.onClick = function () {
+        if ($scope.click) {
+          $scope.click();
+        }
+      };
     }]
   };
 

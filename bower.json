@@ -22,6 +22,9 @@
 		"test",
 		"tests"
 	],
+	"files": [
+		"dist/"
+	],
 	"moduleType": "amd",
 	"repository": {
 		"type": "git",
