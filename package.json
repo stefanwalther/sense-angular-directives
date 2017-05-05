@@ -6,7 +6,10 @@
     "dist/"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix && eslint test --fix",
+    "lint:src": "eslint src",
+    "lint:src:fix": "eslint src --fix"
   },
   "repository": {
     "type": "git",
@@ -27,7 +30,9 @@
   },
   "homepage": "https://github.com/stefanwalther/sense-angular-directives",
   "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-space-single": "^0.1.1",
     "gulp": "git://github.com/gulpjs/gulp#4.0",
-    "sense-go": "^0.5.9"
+    "sense-go": "^0.12.2"
   }
 }
