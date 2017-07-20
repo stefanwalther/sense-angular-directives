@@ -1,6 +1,6 @@
 {
   "name": "sense-angular-directives",
-  "version": "0.2.2",
+  "version": "0.3.1",
   "description": "AngularJS directives ready to be used in Qlik Sense visualization extensions.",
   "files": [
     "dist/"
@@ -10,7 +10,8 @@
     "lint:fix": "eslint src --fix && eslint test --fix",
     "lint:src": "eslint src",
     "lint:src:fix": "eslint src --fix",
-    "build": "sense-go release"
+    "build": "sense-go release",
+    "docs": "docker run --rm -v ${PWD}:/opt/verb stefanwalther/verb"
   },
   "repository": {
     "type": "git",
