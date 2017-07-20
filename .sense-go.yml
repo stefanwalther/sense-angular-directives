@@ -1,10 +1,11 @@
 packageName: 'sense-angular-directives'
+buildDevDir: './dist'
 buildReleaseDir: './dist'
 taskChains:
-  - "build":
+  "build":
     - "clean:tmp"
     - "copy:toTmp"
-    - "import"
+    - "import:fromLocal"
     - "less:each"
     - "replace:tmp"
     - "jsonlint:tmp"
