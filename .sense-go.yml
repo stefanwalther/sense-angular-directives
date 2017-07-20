@@ -3,14 +3,23 @@ buildDevDir: './dist'
 buildReleaseDir: './dist'
 taskChains:
   "build":
+    - "shell"
     - "clean:tmp"
     - "copy:toTmp"
     - "import:fromLocal"
-    - "less:each"
+    - "less:reduce"
     - "replace:tmp"
+    - "clean:tmpIllegal"              #clean illegal files
     - "jsonlint:tmp"
     - "htmlmin:tmp"
-    - "clean:buildRelease"
-    - "copy:tmpToRelease"
+    - "cleanCss:tmp"
+    - "clean:buildDev"
+    - "header-js:tmp"
+    - "copy:tmpToDev"
+    - "zip:dev"
+    - "clean:localExtensionDir"
+    - "deploy:toLocal"
+    - "deploy:toSsh"
+    - "deploy:viaShell"
     - "clean:tmp"
 
