@@ -13,3 +13,4 @@ taskChains:
     - "clean:buildRelease"
     - "copy:tmpToRelease"
     - "clean:tmp"
+

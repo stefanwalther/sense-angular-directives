@@ -32,7 +32,6 @@
   "homepage": "https://github.com/stefanwalther/sense-angular-directives",
   "devDependencies": {
     "eslint": "^3.19.0",
-    "eslint-config-space-single": "^0.1.1",
-    "gulp": "git://github.com/gulpjs/gulp#4.0"
+    "eslint-config-space-single": "^0.1.1"
   }
 }
