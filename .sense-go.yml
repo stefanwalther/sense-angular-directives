@@ -8,7 +8,6 @@ taskChains:
     - "copy:toTmp"
     - "import:fromLocal"
     - "less:reduce"
-    - "less:each"
     - "replace:tmp"
     - "clean:tmpIllegal"              #clean illegal files
     - "jsonlint:tmp"
