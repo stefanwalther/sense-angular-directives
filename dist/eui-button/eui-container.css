@@ -1,0 +1,8 @@
+.full-width {
+  width: calc(100% - 16px);
+}
+.auto-width {
+  width: auto;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImV1aS1idXR0b24vZXVpLWNvbnRhaW5lci5sZXNzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBO0VBQ0Msd0JBQUE7O0FBRUQ7RUFDQyxXQUFBIiwiZmlsZSI6ImV1aS1idXR0b24vZXVpLWNvbnRhaW5lci5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcbi5mdWxsLXdpZHRoIHtcblx0d2lkdGg6IH5cImNhbGMoMTAwJSAtIDE2cHgpXCI7XG59XG4uYXV0by13aWR0aCB7XG5cdHdpZHRoOiBhdXRvO1xufSJdfQ== */
