@@ -8,7 +8,7 @@ define([
     return {
       restrict: 'A',
       scope: {
-        spinning: '=buttonSpinner',
+        spinning: '=euiButtonSpinner',
         spinningIcon: '@?',
         buttonPrepend: '@?',
         buttonAppend: '@?'
